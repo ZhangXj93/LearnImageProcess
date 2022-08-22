@@ -8,7 +8,7 @@
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",  //程序文件路径
+            "program": "${fileDirname}/build/${fileBasenameNoExtension}",  //程序文件路径
             "args": [],  //程序运行需传入的参数
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

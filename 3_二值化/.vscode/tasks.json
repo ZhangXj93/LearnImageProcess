@@ -10,7 +10,7 @@
                 //"${file}",   /* 编译单个文件 */
                 "${fileDirname}/*.cpp",  /* 编译多个文件 */
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}",  /* 输出文件路径 */
+                "${fileDirname}/build/${fileBasenameNoExtension}",  /* 输出文件路径 */
  
                 /* 项目所需的头文件路径 */
                 "-I","${workspaceFolder}/",
